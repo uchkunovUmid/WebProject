@@ -1,0 +1,15 @@
+
+.historyItem {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #151414;
+    border-radius: 5px;
+}
+
+.historyDate {
+    font-weight: bold;
+}
+
+.historyTrackName {
+    margin-top: 5px;
+}

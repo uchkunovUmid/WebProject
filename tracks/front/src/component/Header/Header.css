@@ -1,0 +1,44 @@
+.header {
+    background-color: #1e1c1c;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li:not(:last-child) {
+    margin-right: 40px;
+
+}
+li:hover {
+    transition: transform 0.2s;
+    transform: scale(1.1);
+}
+
+input[type="text"]:focus {
+    border: 2px solid yellow;
+    padding:8px 10px ;
+    border-radius: 12px;
+}
+
+input[type="text"]:hover {
+    cursor: pointer;
+    border: 2px solid yellow;
+    border-radius: 12px;
+    padding:8px 10px ;
+}

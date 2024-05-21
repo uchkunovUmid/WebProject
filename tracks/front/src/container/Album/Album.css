@@ -1,0 +1,31 @@
+.album {
+    background-color: #1e1c1c;
+    height:100vh;
+    width: 100%;
+
+}
+
+.album-card {
+    display: flex;
+    align-items: center;
+    border-bottom:1px solid yellow;
+    margin-bottom: 12px;
+    padding: 6px;
+
+}
+
+.album-desc {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    justify-content: space-between;
+}
+.link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link:hover {
+    color: #dcdc5d;
+}

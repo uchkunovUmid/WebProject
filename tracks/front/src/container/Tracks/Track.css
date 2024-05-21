@@ -1,0 +1,39 @@
+
+
+.track {
+    background-color: #1e1c1c;
+    color: white;
+    padding: 20px;
+    height:100vh;
+    width: 100%;
+}
+
+.container-track {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.track-card {
+    background-color: #333;
+    border: 1px solid #444;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.track-number {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.track-name {
+    font-size: 1.1rem;
+}
+.duration {
+    font-size: 1rem;
+}
+
+
+
+
